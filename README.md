@@ -1,12 +1,36 @@
-# React + Vite
+# PASSOP-MONGO 🔐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Password Management application built with **MongoDB**, **Express.js**, and **React** (Vite). This app allows users to securely **add**, **update**, **delete**, and **view** their saved passwords, along with the associated website URL and name.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔐 Add and manage passwords securely
+- 🌐 Store website name and URL with each password
+- 🛠️ Backend built with Express and MongoDB
+- ⚡ Frontend built with React + Vite
+- 💾 Environment variables managed using `.env`
+- 🧠 Clean and maintainable code structure
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Folder Structure
+PASSOP-MONGO/
+├── backend/ # Express backend
+│ ├── server.js
+│ ├── .env # Environment variables (ignored)
+│ └── package.json
+├── src/ # React frontend
+│ ├── components/ # React components (Navbar, Manager, Footer)
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── assets/
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
+
+## 🧪 Tech Stack
+
+- **Frontend:** React, Vite, CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Environment Management:** dotenv
